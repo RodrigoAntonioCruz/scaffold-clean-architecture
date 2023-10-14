@@ -10,15 +10,14 @@
     <version>1.0.0</version>
 
     <name>Clean Architecture Package</name>
-    <description>This is an archetype of software using Clean Architecture.</description>
+    <description>Este é um arquétipo de software que usa Arquitetura Limpa.</description>
 
     <modules>
         <module>core/domain</module>
         <module>core/use-case</module>
         <module>adapter/input/controller</module>
         <module>adapter/output/repository</module>
-        <module>adapter/output/services</module>
-        <module>app/spring-app</module>
+        <module>app/spring</module>
     </modules>
 
     <properties>
